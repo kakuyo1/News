@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daily Digest 2026-10-23</title>
+<style>
+:root {
+  --canvas: #fdfcf3;
+  --surface: #ffffff;
+  --ink: #000000;
+  --caption: #6e6e6e;
+  --rule: #d9d9d9;
+  --serif: Plantin, Georgia, serif;
+  --page-max-width: 1200px;
+  --section-gap: 80px;
+}
+* { box-sizing: border-box; }
+html { background: var(--canvas); }
+body {
+  margin: 0;
+  background: var(--canvas);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 16px;
+  line-height: 1.38;
+  overflow-wrap: break-word;
+}
+a { color: var(--ink); }
+a:hover, a:focus { text-decoration: underline; }
+.headline a { text-decoration: none; }
+.wrap {
+  max-width: var(--page-max-width);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.masthead { padding: 56px 0 40px; }
+.masthead h1 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+.masthead .date {
+  margin: 12px 0 0;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+}
+.nav {
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+.nav ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 14px 0;
+  list-style: none;
+}
+.nav a {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+  text-decoration: none;
+}
+.nav .pipe { padding: 0 12px; }
+.section { padding-top: 48px; }
+.section + .section {
+  margin-top: var(--section-gap);
+  border-top: 1px solid var(--rule);
+}
+.section-name {
+  margin: 0 0 24px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--rule);
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+  padding: 16px;
+  background: var(--surface);
+}
+.card.lead { grid-column: span 2; padding: 20px; gap: 12px; }
+.card.span2 { grid-column: span 2; }
+.card.span3 { grid-column: span 3; }
+.eyebrow {
+  margin: 0;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+}
+.headline {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+.lead .headline { font-size: 28px; }
+.summary { margin: 0; }
+.meta, .also {
+  margin: 0;
+  font-size: 13px;
+  color: var(--caption);
+}
+.fig {
+  margin: 0;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.fig img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.fig.fig-lead { aspect-ratio: 16 / 9; }
+.fig.fig-card { aspect-ratio: 3 / 2; }
+@media (max-width: 767px) {
+  .grid { grid-template-columns: 1fr; }
+  .card.lead, .card.span2, .card.span3 { grid-column: span 1; }
+  .masthead { padding: 32px 0 24px; }
+  .section { padding-top: 32px; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="masthead">
+<h1>Daily Digest</h1>
+<p class="date">Friday, 23 October 2026</p>
+</header>
+<nav class="nav">
+<ul>
+<li><a href="#international">International</a></li>
+<li><span class="pipe" aria-hidden="true">|</span></li>
+<li><a href="#china">China</a></li>
+<li><span class="pipe" aria-hidden="true">|</span></li>
+<li><a href="#technology">Technology</a></li>
+</ul>
+</nav>
+<section class="section" id="international">
+<h2 class="section-name">International</h2>
+<div class="grid">
+<article class="card lead">
+<p class="eyebrow">BBC News</p>
+<h3 class="headline"><a href="https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&amp;at_campaign=rss">Hospitals deliberately targeted by Sudan's RSF fighters, BBC investigation finds</a></h3>
+<p class="summary">A BBC investigation found evidence that Sudan's Rapid Support Forces systematically destroyed el-Fasher's healthcare system during their siege and takeover of the Darfur city a year ago. The UN human rights chief called the findings 'deeply disturbing'. Medics at el-Fasher's Saudi Hospital performed a Caesarean by phone light on the day it was bombed.</p>
+<p class="meta">Thu, 22 Oct 2026 23:16:16 GMT</p>
+<figure class="fig fig-lead">
+<img src="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6bf/live/fa5ffcb0-ce31-11f1-bc2e-018d645d8d21.jpg" alt="Hospitals deliberately targeted by Sudan's RSF fighters, BBC investigation finds" loading="lazy" referrerpolicy="no-referrer">
+</figure>
+</article>
+<article class="card">
+<figure class="fig fig-card">
+<img src="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/20cc/live/75f1ced0-ce46-11f1-9b4c-4dd353c15d43.jpg" alt="Race to update services' computer systems after cyber-security flaw found" loading="lazy" referrerpolicy="no-referrer">
+</figure>
+<p class="eyebrow">BBC News</p>
+<h3 class="headline"><a href="https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&amp;at_campaign=rss">Race to update services' computer systems after cyber-security flaw found</a></h3>
+<p class="summary">Websites around the world were taken offline on Wednesday and Thursday after developers of the PHP programming language said 'critical vulnerabilities' were found in the back-end language used in web development for decades. Organisations and businesses are still scrambling to update their systems, with researchers warning of the risk to customers.</p>
+<p class="meta">Thu, 22 Oct 2026 17:12:51 GMT</p>
+</article>
+<article class="card">
+<p class="eyebrow">NPR</p>
+<h3 class="headline"><a href="https://www.npr.org/2026/10/22/nx-s1-6012682/judge-dhs-noncitizen-voting-operations">Federal judge restricts DHS field operations looking for noncitizen voters</a></h3>
+<p class="summary">A federal judge in California placed limits on pre-election field operations by the Department of Homeland Security aimed at finding noncitizens who illegally voted in nine states. Armed Homeland Security Investigations officers had visited homes to interview people, and the DOJ announced charges against 28 green card holders on Monday.</p>
+<p class="meta">Thu, 22 Oct 2026 15:16:20 -0400</p>
+<p class="also">Also covered by: <a href="https://www.aljazeera.com/news/2026/10/22/us-judge-blocks-federal-operations-seeking-to-identify-non-citizen-voters?traffic_source=rss">Al Jazeera English</a></p>
+</article>
+<article class="card">
+<figure class="fig fig-card">
+<img src="https://i.guim.co.uk/img/media/713bcd9ff1654fe9c89a51939a324229100d3767/0_125_3728_2984/master/3728.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=6214d8633e19ac1fd959d6bb83d748bd" alt="North Korea prepares to restart propaganda loudspeakers as ties sour with South" loading="lazy" referrerpolicy="no-referrer">
+</figure>
+<p class="eyebrow">The Guardian</p>
+<h3 class="headline"><a href="https://www.theguardian.com/world/2026/oct/22/north-korea-to-restart-propaganda-loudspeakers-south-korea">North Korea prepares to restart propaganda loudspeakers as ties sour with South</a></h3>
+<p class="summary">Kim Yo-jong, sister of North Korean leader Kim Jong-un, warned Pyongyang could restart propaganda loudspeakers on the border with South Korea within days. Seoul's defence ministry said there would naturally have to be a proportional measure if it went ahead, but no decision had been made. South Korea dismantled its own speakers in August 2025.</p>
+<p class="meta">Thu, 22 Oct 2026 03:56:46 GMT</p>
+</article>
+<article class="card">
+<figure class="fig fig-card">
+<img src="https://i.guim.co.uk/img/media/58b66aaef4e26d60886b5c0c15befc257deb5d69/363_156_721_577/master/721.jpg?width=140&amp;quality=85&amp;auto=format&amp;fit=max&amp;s=577fc45552c222f8259e6cff0fffbe91" alt="Taiwan charges five men over plot to run over comedian for his Xi Jinping jokes" loading="lazy" referrerpolicy="no-referrer">
+</figure>
+<p class="eyebrow">The Guardian</p>
+<h3 class="headline"><a href="https://www.theguardian.com/world/2026/oct/21/taiwan-five-men-plot-run-over-comedian-huang-yi-hao-xi-jinping-jokes">Taiwan charges five men over plot to run over comedian for his Xi Jinping jokes</a></h3>
+<p class="summary">Taiwanese prosecutors charged five men over a plot to injure comedian Huang Yi-hao, who was targeted over jokes about Xi Jinping, saying a person named K from China paid them. On 11 September two defendants rammed his scooter, leaving him with a bruised pelvis. Prosecutors said K promised NT$450,000 (US$13,900) but refused to pay the full sum.</p>
+<p class="meta">Wed, 21 Oct 2026 16:13:53 GMT</p>
+</article>
+<article class="card">
+<figure class="fig fig-card">
+<img src="https://www.aljazeera.com/wp-content/uploads/2026/10/2021-05-26T000000Z_1070462324_RC2MNN9ACFBQ_RTRMADP_3_ENVIRONMENT-CLIMATE-EDUCATION-1792710930.jpg?resize=1920%2C1440" alt="Almost all shallow-water coral reefs now face extinction risk, study warns" loading="lazy" referrerpolicy="no-referrer">
+</figure>
+<p class="eyebrow">Al Jazeera English</p>
+<h3 class="headline"><a href="https://www.aljazeera.com/news/2026/10/22/almost-all-shallow-water-coral-reefs-now-face-extinction-risk-study-warns?traffic_source=rss">Almost all shallow-water coral reefs now face extinction risk, study warns</a></h3>
+<p class="summary">Almost all of the world's shallow-water coral reefs face an extremely high risk of collapse in the next 50 years, the International Union for Conservation of Nature warned in a global assessment released at the UN's COP17 biodiversity summit. The IUCN said reefs are 'not yet lost' and have shown an ability to bounce back from bleaching.</p>
+<p class="meta">Thu, 22 Oct 2026 23:32:13 +0000</p>
+</article>
+<article class="card span2">
+<figure class="fig fig-card">
+<img src="https://www.aljazeera.com/wp-content/uploads/2026/10/2018-10-08T115900Z_55817062_RC19ABB9EF90_RTRMADP_3_NETHERLANDS-COURT-1792705359.jpg?resize=1920%2C1440" alt="US-sanctioned ICC wins Sakharov Prize, EU&#8217;s top human rights award" loading="lazy" referrerpolicy="no-referrer">
+</figure>
+<p class="eyebrow">Al Jazeera English</p>
+<h3 class="headline"><a href="https://www.aljazeera.com/news/2026/10/22/us-sanctioned-icc-wins-sakharov-prize-eus-top-human-rights-award?traffic_source=rss">US-sanctioned ICC wins Sakharov Prize, EU&#8217;s top human rights award</a></h3>
+<p class="summary">The European Union awarded the International Criminal Court its top human rights award, the Sakharov Prize, two weeks after US President Donald Trump vowed to dismantle the court through new sanctions. It is the second international recognition for the tribunal this month. EU chief Ursula von der Leyen said the court must be free to pursue its mission.</p>
+<p class="meta">Thu, 22 Oct 2026 22:25:14 +0000</p>
+</article>
+</div>
+</section>
+<section class="section" id="china">
+<h2 class="section-name">China</h2>
+<div class="grid">
+<article class="card lead">
+<p class="eyebrow">South China Morning Post</p>
+<h3 class="headline"><a href="https://www.scmp.com/news/china/article/3371831/casualties-reported-after-70-quake-strikes-chinas-tibet">16 killed, 32 hurt after magnitude 7 earthquake strikes China&#8217;s Tibet</a></h3>
+<p class="summary">At least 16 people were killed and 32 injured when a magnitude 7.0 earthquake struck western Tibet late on Thursday, Xinhua reported, citing local authorities. More than 300 houses collapsed. The US Geological Survey put the epicentre in Maru township, Baqen county, about 190km east-northeast of Nagqu, at a shallow depth of 10km.</p>
+<p class="meta">Thu, 22 Oct 2026 20:26:03 +0000</p>
+<p class="also">Also covered by: <a href="https://www.aljazeera.com/video/newsfeed/2026/10/23/tibet-rocked-by-7-0-magnitude-earthquake?traffic_source=rss">Al Jazeera English</a></p>
+<figure class="fig fig-lead">
+<img src="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/23/d6043b44-e2bb-4b70-9ec0-06307b38ceb1_cf612486.jpg?itok=7PdLbC4N&amp;v=1792700756" alt="16 killed, 32 hurt after magnitude 7 earthquake strikes China&#8217;s Tibet" loading="lazy" referrerpolicy="no-referrer">
+</figure>
+</article>
+<article class="card">
+<figure class="fig fig-card">
+<img src="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/22/93c53ce9-cd47-4490-8b66-651ee0ee1a0b_26b4bdfa.jpg?itok=2vpvn1Xw&amp;v=1792664283" alt="Ahead of Communist Party plenum, Xi Jinping warns that China faces a &#8216;new Long March&#8217;" loading="lazy" referrerpolicy="no-referrer">
+</figure>
+<p class="eyebrow">South China Morning Post</p>
+<h3 class="headline"><a href="https://www.scmp.com/news/china/politics/article/3371796/ahead-communist-party-plenum-xi-jinping-warns-china-faces-new-long-march">Ahead of Communist Party plenum, Xi Jinping warns that China faces a &#8216;new Long March&#8217;</a></h3>
+<p class="summary">Speaking on the 90th anniversary of the Long March's victory, Xi Jinping said strong and united party leadership is vital to victory, having rallied around Mao Zedong to turn defeat into victory 90 years ago. Days before the fifth plenum, he said China faces a "new Long March" and must navigate geopolitical pitfalls and fight for its interests.</p>
+<p class="meta">Thu, 22 Oct 2026 10:18:11 +0000</p>
+</article>
+<article class="card">
+<figure class="fig fig-card">
+<img src="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/22/454934a5-d368-47db-85ee-fbe61de4c37f_43359785.jpg?itok=Qt_AesI_&amp;v=1792631039" alt="Chinese astronomers find real 3-body system. It is not what Liu Cixin thinks" loading="lazy" referrerpolicy="no-referrer">
+</figure>
+<p class="eyebrow">South China Morning Post</p>
+<h3 class="headline"><a href="https://www.scmp.com/news/china/science/article/3371702/chinese-astronomers-find-real-three-body-system-it-not-what-liu-cixin-thinks">Chinese astronomers find real 3-body system. It is not what Liu Cixin thinks</a></h3>
+<p class="summary">Chinese astronomers using FAST, the world's largest single-dish radio telescope in southwestern China, found two dead stars and a living one in a steady system about 7,000 light years from Earth. One dead star is a pulsar spinning more than 300 times a second, orbiting a white dwarf every eight days.</p>
+<p class="meta">Fri, 23 Oct 2026 01:00:06 +0000</p>
+</article>
+<article class="card">
+<figure class="fig fig-card">
+<img src="https://images.thediplomat.com/v1/td-list-l-2/2026/10/thediplomat_2026-10-23-045146.jpg" alt="China, Djibouti Express &#8216;Serious Concern&#8217; Over Threats to Red Sea Shipping" loading="lazy" referrerpolicy="no-referrer">
+</figure>
+<p class="eyebrow">The Diplomat</p>
+<h3 class="headline"><a href="https://thediplomat.com/2026/10/china-djibouti-express-serious-concern-over-threats-to-red-sea-shipping/">China, Djibouti Express &#8216;Serious Concern&#8217; Over Threats to Red Sea Shipping</a></h3>
+<p class="summary">Chinese Foreign Minister Wang Yi met Djibouti's Abdoulkader Houssein Omar on October 21 during Omar's visit to China. Both sides said escalating Red Sea tensions seriously threaten the global economy, especially trade, investment, energy and food security in the Horn of Africa. Wang said China would support Djibouti as a regional trade, logistics and connectivity hub.</p>
+<p class="meta">Fri, 23 Oct 2026 04:45:00 +0900</p>
+<p class="also">Also covered by: <a href="https://www.scmp.com/news/china/diplomacy/article/3371811/china-urges-opening-bab-al-mandeb-first-joint-statement-regional-nation">South China Morning Post</a></p>
+</article>
+<article class="card">
+<figure class="fig fig-card">
+<img src="https://images.thediplomat.com/v1/td-list-l-2/2017/05/thediplomat.com-15737708051_b3704f76b2_k.jpg" alt="Hong Kong&#8217;s Vanishing Rainbow Shows How China&#8217;s Social Control Travels" loading="lazy" referrerpolicy="no-referrer">
+</figure>
+<p class="eyebrow">The Diplomat</p>
+<h3 class="headline"><a href="https://thediplomat.com/2026/10/hong-kongs-vanishing-rainbow-shows-how-chinas-social-control-travels/">Hong Kong&#8217;s Vanishing Rainbow Shows How China&#8217;s Social Control Travels</a></h3>
+<p class="summary">The full Hong Kong Pride Parade has not been held since 2018, and The Diplomat argues Chinese pressure on LGBTQ communities is increasingly transnational. It says Chinese nationals who attend Pride events overseas can attract police attention after returning home, and overseas Chinese LGBTQ groups remain vulnerable to censorship on Chinese platforms.</p>
+<p class="meta">Thu, 22 Oct 2026 21:25:00 +0900</p>
+</article>
+<article class="card">
+<figure class="fig fig-card">
+<img src="https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/22/5b3baf4a-e4d3-4b77-898b-b4561a87eaf6_91c6ab66.jpg?itok=Q1eYtuuQ&amp;v=1792667661" alt="Who blinked first? Fragile EU-China trade peace sparks new war of words" loading="lazy" referrerpolicy="no-referrer">
+</figure>
+<p class="eyebrow">South China Morning Post</p>
+<h3 class="headline"><a href="https://www.scmp.com/news/china/diplomacy/article/3371807/who-blinked-first-fragile-eu-china-trade-peace-sparks-new-war-words">Who blinked first? Fragile EU-China trade peace sparks new war of words</a></h3>
+<p class="summary">Less than two weeks after Brussels and Beijing struck a deal to avert a trade dispute, the truce has become a dispute over who blinked first. EU officials, emboldened by what they see as Chinese concessions, are preparing fresh trade restrictions, while Beijing rejects the idea it can be strong-armed. Doubts already surface over whether the ceasefire holds until January.</p>
+<p class="meta">Thu, 22 Oct 2026 12:00:18 +0000</p>
+</article>
+<article class="card span2">
+<figure class="fig fig-card">
+<img src="https://images.thediplomat.com/v1/td-list-l-2/2026/10/thediplomat_2026-10-21-214654.jpg" alt="Afghanistan&#8217;s Wakhan Transit Road Is a Long Shot to Connect with China" loading="lazy" referrerpolicy="no-referrer">
+</figure>
+<p class="eyebrow">The Diplomat</p>
+<h3 class="headline"><a href="https://thediplomat.com/2026/10/afghanistans-wakhan-transit-road-is-a-long-shot-to-connect-with-china/">Afghanistan&#8217;s Wakhan Transit Road Is a Long Shot to Connect with China</a></h3>
+<p class="summary">Taliban officials inaugurated the 121-kilometre Wakhan Transit Road on October 4 after about three years of construction, linking Afghanistan to China through the Wakhan Corridor. Trade across the Afghanistan-Pakistan border has halted, making the route an alternative. China's response has been lukewarm over security concerns that ETIM members could use the corridor to infiltrate Xinjiang.</p>
+<p class="meta">Wed, 21 Oct 2026 21:40:00 +0900</p>
+</article>
+</div>
+</section>
+<section class="section" id="technology">
+<h2 class="section-name">Technology</h2>
+<div class="grid">
+<article class="card lead">
+<p class="eyebrow">Hacker News</p>
+<h3 class="headline"><a href="https://www.anthropic.com/research/formal-verification">LLMs are making formal software verification feasible at a much larger scale</a></h3>
+<p class="summary">Anthropic researchers write that LLMs are making formal software verification feasible at larger scale, citing tasks such as assessing the security of zlib, proving behavioral equivalence of a Python interpreter written in Rust and finding long-standing bugs in software. They note the proofs currently assume a single-threaded static binary with a fixed memory budget on a RISC-V CPU running Linux.</p>
+<p class="meta">Thu, 22 Oct 2026 22:54:43 +0000</p>
+<figure class="fig fig-lead">
+<img src="https://www-cdn.anthropic.com/images/4zrzovbb/website/80cf520cb540989c3643907f004b2514ec4d01f1-1200x630.jpg" alt="LLMs are making formal software verification feasible at a much larger scale" loading="lazy" referrerpolicy="no-referrer">
+</figure>
+</article>
+<article class="card">
+<p class="eyebrow">Hacker News</p>
+<h3 class="headline"><a href="https://quad9.net/news/blog/au-revoir-france/">Quad9 (DNS Resolver) to Exit France</a></h3>
+<p class="summary">Quad9 says it will stop offering its cybersecurity service to users in France from November 24, 2026, after a French court ruled in favor of beIN and required blocking of certain domains. The court cut the penalty from 580,000 euros to 1,000 per day, but Quad9 says it cannot identify French users or comply without breaking its privacy mission.</p>
+<p class="meta">Thu, 22 Oct 2026 14:32:38 +0000</p>
+</article>
+<article class="card">
+<p class="eyebrow">Simon Willison</p>
+<h3 class="headline"><a href="https://simonwillison.net/2026/Oct/22/donating-agent-skills/">Donating Agent Skills to the Agentic AI Foundation</a></h3>
+<p class="summary">Simon Willison relays news from Anthropic that it is donating the Agent Skills standard to the Agentic AI Foundation under the Linux Foundation, saying it is committed to keeping Agent Skills open, community-driven and vendor-neutral.</p>
+<p class="meta">2026-10-22T18:09:56+00:00</p>
+</article>
+<article class="card">
+<p class="eyebrow">arXiv cs.AI</p>
+<h3 class="headline"><a href="https://arxiv.org/abs/2610.28763">Automating ML for Science: Can Frontier Agents Climb Scientific Hills in the Wild?</a></h3>
+<p class="summary">Agent4Sci is a long-horizon testbed spanning 20 benchmarks in 11 domains that measures how far agents can improve published best scientific ML models. The authors report frontier agents advance every benchmark, with Claude Opus reaching 10.4% mean relative improvement, mostly from ML-engineering tricks; lightweight skills for research ideation raise Opus to 20.1% and Codex from 4.4% to 8.1%.</p>
+<p class="meta">Thu, 22 Oct 2026 00:00:00 -0400</p>
+</article>
+<article class="card">
+<p class="eyebrow">arXiv cs.LG</p>
+<h3 class="headline"><a href="https://arxiv.org/abs/2610.28707">SimHack: Predicting the onset of detectable reward hacking before RL training</a></h3>
+<p class="summary">SimHack is a simulator that learns reward hacking training dynamics from a few smaller-scale reference RL runs and generates counterfactual runs of unseen target recipes without retraining. Across unseen recipes it predicts median onset with 11.3% relative error and 0.85 rank correlation, and it was used to find curricula that train 96.6% longer without hacking.</p>
+<p class="meta">Thu, 22 Oct 2026 00:00:00 -0400</p>
+</article>
+<article class="card span3">
+<p class="eyebrow">arXiv cs.CL</p>
+<h3 class="headline"><a href="https://arxiv.org/abs/2610.28787">Is Anyone Enforcing the Cartel? What Reinforcement Learning Teaches LLM Agents in Markets</a></h3>
+<p class="summary">The paper introduces an audit that forces a cartel member to cheat in counterfactual market copies, testing whether LLM pricing agents enforce collusion. It finds small reinforcement-learning-trained models learn what their training rivals reward, that only matching agents can enforce cartel profits and then thinly, and that outcome measures cannot distinguish these cases while the audit can.</p>
+<p class="meta">Thu, 22 Oct 2026 00:00:00 -0400</p>
+</article>
+</div>
+</section>
+</div>
+</body>
+</html>
